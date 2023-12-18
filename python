@@ -1,0 +1,40 @@
+name = input('Seu nome:')
+n1 = float(input('Digite um número:'))
+n2 = float(input('Digite outro número:'))
+print(f'{"":=^30}')
+print('O sucessor de {} é {} e'.format(n1, n1+1), end=' ')
+print('o seu antecessor é {}'.format(n1-1))
+print('O sucessor de {} é {} e'.format(n2, n2+1), end=' ')
+print('o seu antecessor é {}'.format(n2-1))
+print(f'{"":=^30}')
+s = n1+n2
+d1 = n1-n2
+d2 = n2-n1
+print('A soma entre {} e {} é {}'.format(n1, n2, s))
+print('A diferença entre {} e {} é igual a  {}:'.format(n1, n2, d1))
+print('Já a diferença entre {} e {} é igual a {}'.format(n2, n1, d2))
+print(f'{"":=^30}')
+m = n1*n2
+di = n1/n2
+di2 = n2/n1
+dt1 = n1//n2
+dt2 = n2//n1
+res1 = n1 % n2
+res2 = n2 % n1
+med = (n1+n2)/2
+print('A média entre {} e {} é {}'.format(n1, n2, med))
+print('A divisão entre {} e {} é {}'.format(n1, n2, di))
+print('A divisão entre {} e {} é {}'.format(n2, n1, di2))
+print('A divisão inteira entre {} e {} é {} e terá resto {}'.format(n1, n2, dt1, res1))
+print('A divisão inteira entre {} e {} é {} e terá resto {}'.format(n2, n1, dt2, res2))
+print(f'{"":=^30}')
+pot = n1**n2
+pot2 = n2**n1
+raz = n1**0.5
+raz2 = n2**0.5
+print('A potencialização entre {} e {} é {}'.format(n1, n2, pot))
+print('Já ao contrário, a potencialização entre {} e {} é {}'.format(n2, n1, pot2))
+print('A raiz quadrada de {} é {}'.format(n1, raz))
+print('A raiz quadrada de {} é {}'.format(n2, raz2))
+print(f'{"":=^30}')
+print('Obrigado(a) {} por utilizar essa calculadora, você é {:😎^30}!'.format(name, name+'INCRíVEL'))
